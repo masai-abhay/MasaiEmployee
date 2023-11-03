@@ -1,0 +1,70 @@
+/* Fill CSS here */
+div
+{
+        display: flex;
+        justify-content: space-around;
+
+
+}
+
+*{
+  box-sizing: border-box;
+}
+
+label{
+    font-size: 18px;
+}
+
+h1{
+    color :blue;
+    text-decoration: underline;
+    margin-left: 700px;
+    
+}
+
+ form{
+   
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 15%;
+    padding: 15px;
+   margin: auto;
+   margin-top: 100px;
+  
+ }
+
+
+ input[type="submit"]
+ {
+   color: white;
+   background-color: blue;
+  padding: 10px 40px;
+   border: none;
+   margin: 30px;
+   font-size: 15px;
+   border-radius: 5px;
+   
+   cursor: pointer;
+
+ }
+
+ table{
+    text-align: center;
+   width: 60%;
+    border-collapse: collapse;
+   margin: auto;
+   margin-top: 50px
+
+    
+ }
+
+ table td,table th{
+  border: 1px solid white;
+  text-align: center;
+  text-align: center;
+ }
+
+ table th{
+  color: white;
+  background-color: blue;
+  
+ }
